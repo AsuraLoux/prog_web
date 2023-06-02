@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* Align-Items: serve para onde você quer colocar o texto, em cima, meio ou baixo */
+
+}
+
+.nav {
+    background-color: black;
+    height: 5vh;
+    /* vh serve para colocar o tamanho certo de cada dispositivo */
+}
+
+header h2 {
+    color: white;
+    padding: 10px;
+    /* padding serve para afastar de onde está alocado o texto */
+}
+
+main {
+    min-height: 80vh;
+}
+
+.main h1 {
+    padding: 10px 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color:brown;
+    color: white;
+
+}
+
+.nav ul {
+    list-style-type: none;
+
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    transition: 0.4s;
+}
+
+.nav a:hover {
+    color: beige;
+}
+
+.main {
+    margin: 0 auto;
+    width: 75vw;
+    margin: 3vh;
+}
+
+p {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+ul {
+    padding: 15px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+ul, ol {
+    margin-left: 25px;
+}
+
+.titulo-dois {
+    margin: 10px;
+}
+
+.titulo-treis {
+    margin: 10px;
+}
+
+.titulo-quatro {
+    margin: 10px;
+}
+
+.links {
+    margin-top: 10px;
+}
+
+.links hr {
+    padding: 12px;
+}
+
+span {
+    font-weight: bold;
+}
